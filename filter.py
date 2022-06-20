@@ -4,7 +4,7 @@ import json
 UserName = input("Enter your Github user name : ")
 url = "https://api.github.com/{}"
 
-token = "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"
+token = input("Enter your git hub access token : ")
 path = f"user/repos"
 
 headers = {'Authorization': 'token ' + token}
