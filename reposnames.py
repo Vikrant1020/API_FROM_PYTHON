@@ -22,7 +22,7 @@ if (type_of_repo.lower() == 'p'):
         print(i+1, repo["name"] ) 
         a = repo["name"]
         b = f"{datetime.datetime.now()} {a}, \n"
-        with open("logs.json", "a") as outfile:
+        with open("Publiclogs.json", "a") as outfile:
             outfile.write(b )
 
 elif (type_of_repo.lower() == 'a'):
