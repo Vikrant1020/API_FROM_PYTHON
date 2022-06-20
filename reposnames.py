@@ -44,7 +44,7 @@ elif (type_of_repo.lower() == 'a'):
         a = repo["name"]
         c = repo["private"]
         b = f"{datetime.datetime.now()} {a}------------ private:-- {c}, \n"
-        with open("logs.json", "a") as outfile:
+        with open("Privatelogs.json", "a") as outfile:
             outfile.write(b )
 else:
     print("PK ho kya")
