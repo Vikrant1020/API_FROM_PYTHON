@@ -1,4 +1,4 @@
-# GIT_API_PYTHON
+# API'S_PYTHON_REQUIREMENTS
 
 REQURIED PYTHON MODULE'S
 1. requests  ----------- pip install requests
