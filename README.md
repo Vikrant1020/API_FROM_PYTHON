@@ -5,6 +5,7 @@ REQURIED PYTHON MODULE'S
 2. slack --------------- pip install slackclient
 3. slackeventsapi ------ pip install slackeventsapi
 4. Flask --------------- pip install flask
+5. boto3 --------------- pip install boto3
 
 ------:REFERANCE LINKS:-----
 
